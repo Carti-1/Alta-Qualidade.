@@ -1,4 +1,4 @@
-from src.models.pedido import Pedido
+from ..app.entities.pedido import Pedido
 
 
 class PedidoService:
@@ -15,4 +15,3 @@ class PedidoService:
             print(f"Cliente: {pedido.cliente}")
             print(f"Valor final: {pedido.valor_final(pedido.valor_original)}")
 
-    

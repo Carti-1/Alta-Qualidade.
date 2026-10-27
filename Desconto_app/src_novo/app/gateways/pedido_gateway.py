@@ -1,11 +1,10 @@
 import abc
-
 from ..entities.pedido import Pedido
 
 
 class IPedidoGateway(abc.ABC):
     @abc.abstractmethod
-    def salvar(self, pedido: Pedido) -> None:
+    def salvar(self, pedido: Pedido, tipo_desconto: str) -> None:
         pass
 
     @abc.abstractmethod
