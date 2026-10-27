@@ -1,8 +1,0 @@
-{
-    "python.defaultInterpreterPath": "${workspaceFolder}\\Game2d_alien\\.venv\\Scripts\\python.exe",
-    "python.terminal.activateEnvironment": true,
-    "terminal.integrated.cwd": "${workspaceFolder}\\Game2d_alien\\src",
-    "terminal.integrated.env.windows": {
-        "PATH": "${workspaceFolder}\\Game2d_alien\\.venv\\Scripts;${env:PATH}"
-    }
-}

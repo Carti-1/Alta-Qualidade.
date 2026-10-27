@@ -10,6 +10,7 @@ __pycache__/
 .coverage
 .coverage.*
 htmlcov/
+monkeytype
 monkeytype.sqlite3
 
 # Virtual environments
@@ -33,8 +34,7 @@ pip-wheel-metadata/
 
 # Editor and operating system files
 .idea/
-.vscode/*
-!.vscode/settings.json
+.vscode/
 .DS_Store
 Thumbs.db
 Desktop.ini
